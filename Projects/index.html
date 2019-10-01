@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Get Weather.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Get Weather</h1>
+
+        <form action="weather/today" method="GET">
+            <input type="text" placeholder="Latitude..." name="lat"/>
+            <input type="text" placeholder="Longitude..." name="long"/>
+            <input type="submit" value="Submit">
+        </form>
+
+        <main>
+            <h2>Example Locations:</h2>
+            <p>Phoenix: 33.445961, -112.075839</p>
+            <p>Seattle: 47.600279, -122.330948</p>
+            <p>New York City: 40.725152, -74.001783</p>
+            <p>Washington, DC: 38.896979, -77.038951</p>
+        </main>
+    </body>
+</html>
