@@ -1,6 +1,9 @@
 h1{
     text-align: center;
 }
+h2,p{
+    text-align: center;
+}
 form{
     width: 25%;
     margin: auto;
@@ -8,4 +11,10 @@ form{
 main{
     width: 25%;
     margin: auto;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: rgb(122, 122, 245);
 }

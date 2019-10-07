@@ -42,6 +42,7 @@
 #weeklyTable th, #weeklyTable td, #hourlyTable th, #hourlyTable td{
     width: 12.5%;
     text-align: center;
+    color: white;
 }
 
 #hourlyTable th, #hourlyTable td{

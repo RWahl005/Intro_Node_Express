@@ -1,0 +1,13 @@
+h1, h3, p{
+    text-align: center;
+}
+section{
+    width: 10%;
+    margin: auto;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: rgb(131, 131, 250);
+}
